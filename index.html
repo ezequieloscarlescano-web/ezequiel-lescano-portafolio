@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ezequiel Lescano - CV y Portafolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    a {
+      color: #ff3b3f;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #ff6669;
+      text-decoration: underline;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #1a1a1a;
+      border-bottom: 2px solid #ff3b3f;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      color: #f0f0f0;
+      font-size: 1rem;
+    }
+    nav a i {
+      margin-right: 6px;
+    }
+    nav a:hover {
+      color: #ff3b3f;
+    }
+    header {
+      padding: 80px 20px 30px;
+      text-align: center;
+      background-color: #1a1a1a;
+      border-bottom: 2px solid #ff3b3f;
+      box-shadow: 0 0 20px rgba(255, 59, 63, 0.3);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #ff3b3f;
+      text-shadow: 1px 1px 2px rgba(255, 59, 63, 0.4);
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #ccc;
+    }
+    .contact-info p {
+      font-size: 0.95rem;
+      color: #bbb;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #1a1a1a;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 59, 63, 0.4);
+    }
+    h2 {
+      color: #ff3b3f;
+      border-bottom: 2px solid #ff3b3f;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+    h3 {
+      color: #ff6669;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .btn-download {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #ff3b3f;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgba(255, 59, 63, 0.5);
+      transition: all 0.3s ease;
+    }
+    .btn-download:hover {
+      background-color: #ff6669;
+      box-shadow: 0 6px 14px rgba(255, 102, 105, 0.7);
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #bbb;
+      letter-spacing: 1px;
+      padding: 20px;
+      background-color: #1a1a1a;
+      border-top: 2px solid #ff3b3f;
+    }
+    footer div a {
+      margin: 0 10px;
+      font-size: 1.2rem;
+      color: #ff3b3f;
+    }
+    .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+    @media (max-width: 600px) {
+      nav a { font-size: 0.9rem; margin: 0 8px; }
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+      section { margin: 15px 10px; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#cv"><i class="fas fa-id-card"></i> CV</a>
+  <a href="#portfolio"><i class="fas fa-briefcase"></i> Portafolio</a>
+  <a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+</nav>
+
+<header data-aos="fade-down">
+  <h1>Ezequiel Lescano</h1>
+  <p>Diseñador Gráfico | Producción Audiovisual | Atención al Cliente</p>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:ezequieloscarlescano@gmail.com">ezequieloscarlescano@gmail.com</a> | Tel: 2664948129</p>
+  </div>
+</header>
+
+<section id="cv" data-aos="fade-up">
+  <h2><i class="fas fa-id-card"></i> Currículum Vitae</h2>
+  <h3>Perfil Profesional</h3>
+  <p>Profesional versátil con experiencia en atención al cliente, diseño gráfico y producción audiovisual. Destaco por mi creatividad, compromiso y capacidad de adaptación.</p>
+
+  <h3>Experiencia Laboral</h3>
+  <ul>
+    <li><strong>Diseñador Gráfico Freelance</strong> (2022 – Presente)</li>
+    <li><strong>Producción Audiovisual</strong> (2021 – Presente)</li>
+    <li><strong>Atención al Cliente - Call Center</strong> (2020 – 2021)</li>
+    <li><strong>Armado y Reparación de PC</strong> (2013)</li>
+  </ul>
+
+  <h3>Educación</h3>
+  <p>Secundario Completo - EPDA, 2018</p>
+
+  <h3>Habilidades Técnicas</h3>
+  <ul>
+    <li>Word, Excel, Photoshop, Canva, CapCut, OBS Studio</li>
+  </ul>
+
+  <h3>Habilidades Blandas</h3>
+  <ul>
+    <li>Comunicación, resolución de problemas, trabajo en equipo</li>
+  </ul>
+
+  <a href="https://drive.google.com/file/d/1YOx-fXomr__PkOLKS3l_u6Mgjqx_-_YE/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn-download">Descargar CV en PDF</a>
+</section>
+
+<section id="portfolio" data-aos="fade-up">
+  <h2><i class="fas fa-briefcase"></i> Portafolio</h2>
+
+  <div class="portfolio-item">
+    <h3>Diseño y Branding</h3>
+    <p>Instagram: <a href="https://www.instagram.com/bellfran.sl/" target="_blank">bellfran.sl</a></p>
+  </div>
+
+  <div class="portfolio-item">
+    <h3>Edición de Video</h3>
+    <ul>
+            <li><a href="https://www.youtube.com/@zekyto" target="_blank">YouTube</a></li>
+      <li><a href="https://www.tiktok.com/@izekyto" target="_blank">TikTok</a></li>
+    </ul>
+  </div>
+
+  <div class="portfolio-item">
+    <h3>Carpeta de Trabajos</h3>
+    <p><a href="https://drive.google.com/drive/folders/1yrnoaANjvuUnts6rtPoPRZMFJFI0uJQm?usp=drive_link" target="_blank">Google Drive</a></p>
+  </div>
+</section>
+
+<section id="contacto" data-aos="fade-up">
+  <h2><i class="fas fa-envelope"></i> Contacto</h2>
+  <p>Email: <a href="mailto:ezequieloscarlescano@gmail.com">ezequieloscarlescano@gmail.com</a></p>
+  <p>Teléfono: <a href="https://wa.me/542664948129" target="_blank">2664948129</a></p>
+</section>
+
+<footer data-aos="fade-up">
+  <p>© 2025 Ezequiel Lescano</p>
+  <div>
+    <a href="https://www.instagram.com/izekyto/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@zekyto" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@izekyto" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/542664948129" class="whatsapp-float" target="_blank" title="Enviar mensaje">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+
+</body>
+</html>
